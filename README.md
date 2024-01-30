@@ -1,17 +1,41 @@
-# machine_learning_project-unsupervised-learning
+# Machine Learning Project - Unsupervised Learning
 
 ## Project Outcomes
 - Unsupervised Learning: perform unsupervised learning techniques on a wholesale data dataset. The project involves four main parts: exploratory data analysis and pre-processing, KMeans clustering, hierarchical clustering, and PCA.
-### Duration:
-Approximately 1 hour and 40 minutes
-### Project Description:
-In this project, we will apply unsupervised learning techniques to a real-world data set and use data visualization tools to communicate the insights gained from the analysis.
 
-The data set for this project is the "Wholesale Data" dataset containing information about various products sold by a grocery store.
-The project will involve the following tasks:
+- To seperate customers into groups based on their spending habits over 5 types of products:
+  * Fresh
+  * Milk
+  * Grocery
+  * Frozen
+  * Detergents Paper
+  * Delicassen
 
--	Exploratory data analysis and pre-processing: We will import and clean the data sets, analyze and visualize the relationships between the different variables, handle missing values and outliers, and perform feature engineering as needed.
--	Unsupervised learning: We will use the Wholesale Data dataset to perform k-means clustering, hierarchical clustering, and principal component analysis (PCA) to identify patterns and group similar data points together. We will determine the optimal number of clusters and communicate the insights gained through data visualization.
+to presumable to gain insights through the unsupervised ML model as to consumer spending patterns for business application.
 
-The ultimate goal of the project is to gain insights from the data sets and communicate these insights to stakeholders using appropriate visualizations and metrics to make informed decisions based on the business questions asked."
 
+## Project Steps:
+### Part I - EDA
+Exploratory Data Analysis and Preprocessing to clean raw data, understand correlations and transforma data as necessary
+
+### Part II - KMeans Clustering
+Using KMeans Clustering to analyze data
+
+### Part III - Hierarchical Clustering
+Using Hierarchical Clustering to analyze data
+
+### Part IV - PCA
+To determine conclusions from Principal Component Analysis
+
+### Part V - Conclusion
+4 major conclusion points for the entire model
+
+
+## Documents
+notebook.ipynb - contains the ML model and all necessary code to run
+Wholesale_Data.csv - original wholesale data used to train model
+UnsupervisedLearning-Project - original project instructions (used for reference and can be largely ignored)
+
+
+## Future Considerations
+Given more resources and time for this project, it would be helpful to explore the parameters of which the model could be run. There was potential to cluster products together even more and simplify the model. Given the time, this should be explored to see how it would affect the number of customer clusters produced.
